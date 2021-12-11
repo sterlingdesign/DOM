@@ -119,5 +119,3 @@ if they sound like good ideas.
 #### THANKS FOR LOOKING AND MUCH SUCCESS TO YOU
 
 ##### Also thanks to the hundreds of men and women who have worked on these technologies to make it possible.  Will hopefully add some credits in the future, but the list will be long.
-
-
