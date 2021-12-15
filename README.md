@@ -1,4 +1,4 @@
-# sterlingdesign/DOM
+# sterlingdesign/dom
 
 ## Functional Enhancements for PHP's Document Object Model (DOM)
 
