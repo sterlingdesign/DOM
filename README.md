@@ -27,12 +27,9 @@ without an autoloader.
 
 ### Basic Usage
 
-Here are a few examples of some features.  Full documentation isn't available
-at the time of this writing, but may be available in the near future here on 
-github (if anyone would like to contribute) or otherwise on the authors' home website.
+Here are a few examples of some features.
 
-
-    $oDoc = new \SterlingDesign\DOM\Document();
+    $oDoc = new \Sterling\DOM\Document();
     
     // selectSingleElement(string $strXPath, bool $bCreateIfNotPresent)
     //
@@ -81,12 +78,10 @@ github (if anyone would like to contribute) or otherwise on the authors' home we
     // to any of the getXXXValue functions is a default
     // value to be returned if the node does not exist.
     // This way, the return value is guaranteed to be of the
-    // expected type (here we'll use string instead of bool):
-    $valMyOtherBool = $oRoot->getStringValue("MyOtherBool", "false");
-    echo "The value of MyOtherBool is {$valMyOtherBool}" . PHP_EOL;
+    // expected type
+    $valMyOtherBool = $oRoot->getBoolValue("MyOtherBool", false);
+    echo "MyOtherBool is " . ($valMyOtherBool ? "true" : "false") . PHP_EOL;
 
-more to follow, i hope!  For now, please take a look at TEnhancements.php, Document.php, and ElementNode.php
-    
     
 ### Security Considerations
 
