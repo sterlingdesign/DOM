@@ -8,7 +8,7 @@ This package extends the existing PHP DOM with functionality that is missing fro
 core library.  The most important and useful feature is the automation of the
 use of XPath to select one or more nodes, set element or attribute values, and get
 those element or attribute values.  The ElementNode is also extended in order
-to automate the creation of children nodes, including shortcuts for some of the common
+to automate the creation of children nodes, including shortcuts for some common
 HTML/XHTML element nodes.
 
 ### Requirements

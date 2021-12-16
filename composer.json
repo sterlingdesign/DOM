@@ -1,13 +1,13 @@
 {
   "name": "sterlingdesign/dom",
   "type": "library",
-  "description": "Useability Enhancements to the PHP DOM classes",
+  "description": "Usability Enhancements to the PHP DOM classes",
   "license": "MIT",
   "keywords": [ "libxml","DOM","XPath","SterlingStack" ],
   "authors": [
     {
       "name": "Seth A. Manley",
-      "email": "samofvermont@yahoo.com",
+      "email": "samofvt@sterlingsoftware.net",
       "homepage": "http://www.sterlingsoftware.net",
       "role": "Developer"
     }
