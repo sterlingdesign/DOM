@@ -17,7 +17,8 @@
     "ext-libxml": "*",
     "ext-dom": "*",
     "ext-xsl": "*",
-    "ext-mbstring": "*"
+    "ext-mbstring": "*",
+    "sterlingdesign/global-logging": ">=1.0"
   },
   "autoload": {
     "psr-4": {
