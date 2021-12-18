@@ -3,7 +3,7 @@
   "type": "library",
   "description": "Usability Enhancements to the PHP DOM classes",
   "license": "MIT",
-  "keywords": [ "libxml","DOM","XPath","SterlingStack" ],
+  "keywords": [ "libxml","XML","DOM","XPath","SterlingStack" ],
   "authors": [
     {
       "name": "Seth A. Manley",
