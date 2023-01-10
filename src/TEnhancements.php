@@ -223,8 +223,16 @@ public function selectSingleNode(string $path, bool $bCreateIfNotPresent = false
       $node = $this->selectSingleNode(implode('/',$arPath), true);
     else
       $node = $this;
-    if(null != $node)
-      $node = $node->appendNewStepNode($strLastStep);
+    try
+      {
+      if(null != $node)
+        $node = $node->appendNewStepNode($strLastStep);
+      }
+    catch(\Throwable $throwable)
+      {
+      LogWarning(gettype($node));
+      LogError($throwable);
+      }
     }
 
   return $node;
